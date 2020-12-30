@@ -1,6 +1,7 @@
 ## Drawing A Circle
 ### Code
-{ size(500,300);
+{ 
+  size(500,300);
   background(255);
   strokeWeight(5);
   Smooth();
