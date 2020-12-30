@@ -1,26 +1,26 @@
 ## Drawing A Circle
 ### Code
 -{
--size(500,300);
--background(255);
--strokeWeight(5);
--Smooth();
+-  size(500,300);
+-  background(255);
+-  strokeWeight(5);
+-  Smooth();
 
--float radius = 100;
--int centX = 250;
--int centY =150;
+-  float radius = 100;
+-  int centX = 250;
+-  int centY =150;
 
--stroke(0,30);
--noFill();
--ellipse(centx,centY,radius*2,radius*2);
+-  stroke(0,30);
+-  noFill();
+-  ellipse(centx,centY,radius*2,radius*2);
 
--stroke(20,50,70);
--float x,y;
--float lastx=-999;
--float lasty=-999;
--for(float ang=0,ang<=360,ang +=1){
--  float rad = radians(ang);
--  x=centX+(radius*cos(rad));
--  y=centY+(radius*sin(rad));
--  point(x,y);
--  }}
+-  stroke(20,50,70);
+-  float x,y;
+-  float lastx=-999;
+-  float lasty=-999;
+-  for(float ang=0,ang<=360,ang +=1){
+-    float rad = radians(ang);
+-    x=centX+(radius*cos(rad));
+-    y=centY+(radius*sin(rad));
+-    point(x,y);
+-    }}
